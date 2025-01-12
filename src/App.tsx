@@ -1,14 +1,7 @@
 import React, { useEffect } from 'react';
 
 import { useSelector, useDispatch } from 'react-redux';
-import {
-  setSelectedPair,
-  setStartDate,
-  setEndDate,
-  setChartData,
-  setLoading,
-  setError,
-} from './store';
+import { setSelectedPair, setStartDate, setEndDate, setChartData, setLoading, setError } from './store';
 import CurrencySelector from './components/CurrencySelector';
 import DateRangePicker from './components/DateRangePicker';
 import PriceChart from './components/PriceChart';
