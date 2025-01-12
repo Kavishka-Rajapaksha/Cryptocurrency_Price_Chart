@@ -7,7 +7,7 @@ import {
   setChartData,
   setLoading,
   setError,
-} from '../store';
+} from '../store.ts';
 import CurrencySelector from './components/CurrencySelector';
 import DateRangePicker from './components/DateRangePicker';
 import PriceChart from './components/PriceChart';
